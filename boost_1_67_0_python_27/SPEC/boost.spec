@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_DIR/*
 %files
 %defattr (777,root,root,755)
 %{_prefix}/include
-%{_prefix}/lib
+%{_prefix}/lib/*
 
 %changelog
 * Fri Oct 26 2018 spgoal <gejx2010@gmail.com> - 1.67.0
